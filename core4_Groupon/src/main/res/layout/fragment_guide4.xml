@@ -1,0 +1,31 @@
+<FrameLayout
+    android:id="@+id/guide_FrameLayout_4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="day01.core4_groupon.fragment.Guide4Fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/new_comer_guide_fg_1" />
+
+        <Button
+            android:id="@+id/guide_button_4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="开始新的体验"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:background="@drawable/guide_selector"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"/>
+    </RelativeLayout>
+
+</FrameLayout>
