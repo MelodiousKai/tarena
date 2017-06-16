@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_1_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="美食"
+            android:drawableTop="@mipmap/ic_home_food"
+            android:gravity="center"
+            android:padding="11dp"/>
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_1_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="电影"
+            android:drawableTop="@mipmap/ic_home_movie"
+            android:gravity="center"
+            android:padding="11dp"/>
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_1_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="电影"
+            android:drawableTop="@mipmap/ic_home_hotel"
+            android:gravity="center"
+            android:padding="11dp"/>
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_1_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="休闲娱乐"
+            android:drawableTop="@mipmap/ic_home_relax"
+            android:gravity="center"
+            android:padding="11dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_1_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_home_pub"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="外卖" />
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_1_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_home_movie"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="小吃快餐" />
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_1_7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_home_liren"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="丽人/美发" />
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_1_8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_home_zhoubianyou"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="周边游" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

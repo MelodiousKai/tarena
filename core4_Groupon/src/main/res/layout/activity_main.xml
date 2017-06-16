@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="day01.core4_groupon.activity.MainActivity">
 
-    <com.handmark.pulltorefresh.library.PullToRefreshListView
-        android:id="@+id/main_PullToRefreshListView"
+    <include layout="@layout/main_top" />
+
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/main_PullToRefreshListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+        <include
+            android:id="@+id/main_menu"
+            layout="@layout/main_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:visibility="invisible"/>
+
+    </FrameLayout>
+
+
+    <include layout="@layout/main_bottom" />
 
 </LinearLayout>

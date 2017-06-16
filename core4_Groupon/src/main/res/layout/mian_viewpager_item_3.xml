@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_3_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_home_ktv"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="KTV" />
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_3_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_home_frontpage"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="医疗保健" />
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_3_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/xianhua"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="鲜花" />
+
+        <TextView
+            android:id="@+id/ic_home_car"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_home_relax"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="爱车" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_3_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_home_book"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="学习培训" />
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_3_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_home_pet"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="宠物" />
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_3_7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_home_jiazhuang"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="家装" />
+
+        <TextView
+            android:id="@+id/mian_viewPager_item_3_8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_home_more"
+            android:gravity="center"
+            android:padding="11dp"
+            android:text="全部分类" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
